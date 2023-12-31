@@ -1,5 +1,3 @@
-# Funimation API
-
 ![Funimation](https://github.com/vqvv/funimation-api/blob/main/banner.png?raw=true)
 
 Welcome to the Funimation API documentation. This API provides endpoints for various functionalities related to Funimation.
