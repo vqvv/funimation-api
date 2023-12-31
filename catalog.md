@@ -1,8 +1,6 @@
 # Funimation API - Catalog
 
-![Funimation](https://github.com/hyugogirubato/API-Funimation/blob/main/api_banner.png?raw=true)
-
-Welcome to the Funimation API documentation for the Catalog section. This section provides various endpoints related to the Funimation catalog, including episodes, seasons, titles, videos, and more.
+This section provides various endpoints related to the Funimation catalog, including episodes, seasons, titles, videos, and more.
 
 ## Endpoints
 
