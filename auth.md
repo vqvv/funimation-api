@@ -10,11 +10,21 @@ The authentication section provides endpoints for user authentication, including
 - **Register (auth):** `POST /auth/register`
   - Create a new user account.
 
-## Request Example
+## Request Example For Login
 
 ```json
-{
-  "username": "example_user",
-  "email": "example@example.com",
-  "password": "password123"
-}
+    {
+        'username': "email@mail.com",
+        'password': "password123"
+    }
+```
+## Request Example For Register
+
+```json
+    {
+        'username': "email@mail.com",
+        'password': "password123",
+        'subscription_id': "337",
+        'emailSub': "false"
+    }
+```
