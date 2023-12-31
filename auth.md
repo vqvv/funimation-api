@@ -4,10 +4,10 @@ The authentication section provides endpoints for user authentication, including
 
 ## Endpoints
 
-- **Login (auth):** `POST /auth/login`
+- **Login (auth):** `POST https://prod-api-funimationnow.dadcdigital.com/api/auth/login/`
   - Authenticate the user.
 
-- **Register (auth):** `POST /auth/register`
+- **Register (auth):** `POST https://prod-api-funimationnow.dadcdigital.com/api/auth/register/`
   - Create a new user account.
 
 ## Request Example For Login
