@@ -1,29 +1,25 @@
-
-### user.md
-
-```markdown
 # User Endpoints
 
 The user section provides endpoints for managing user profiles, including updating usernames, emails, passwords, and avatars.
 
 ## Endpoints
 
-- **Get User Info (user):** `GET /user`
+- **Get User Info (user):** `GET https://prod-api-funimationnow.dadcdigital.com/api/user/`
   - Retrieve user information.
 
-- **Update Username (user):** `PUT /user/username`
+- **Update Username (user):** `PUT https://prod-api-funimationnow.dadcdigital.com/api/user/username/`
   - Update the username.
 
-- **Update Email (user):** `PUT /user/email`
+- **Update Email (user):** `PUT https://prod-api-funimationnow.dadcdigital.com/api/user/email/`
   - Update the email address.
 
-- **Update Password (user):** `PUT /user/password`
+- **Update Password (user):** `PUT https://prod-api-funimationnow.dadcdigital.com/api/user/password/`
   - Update the user password.
 
-- **Update Avatar (user):** `PUT /user/avatar`
+- **Update Avatar (user):** `PUT https://prod-api-funimationnow.dadcdigital.com/api/user/avatar/`
   - Update the user avatar.
 
-## Request Example
+## Request Example for Update Username
 
 ```json
 {
