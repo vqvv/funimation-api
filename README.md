@@ -8,3 +8,4 @@ Welcome to the Funimation API documentation. This API provides endpoints for var
 - [User](user.md): Explore user-related endpoints for managing profiles.
 
 Feel free to explore each section to understand how to use the API.
+I did not list all of the catalog stuff and etc because i havent used theme before please go to this [wiki](https://github.com/hyugogirubato/API-Funimation/wiki#catalog).
