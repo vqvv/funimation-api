@@ -4,7 +4,7 @@ The user section provides endpoints for managing user profiles, including updati
 
 ## Endpoints
 
-- **Get User Info (user):** `GET https://prod-api-funimationnow.dadcdigital.com/api/user/`
+- **Get User Info (user):** `GET https://prod-api-funimationnow.dadcdigital.com/api/user/YOURUSERID/`
   - Retrieve user information.
 
 - **Update Username (user):** `POST https://prod-api-funimationnow.dadcdigital.com/api/source/user/YOURUSERID/`
@@ -16,7 +16,7 @@ The user section provides endpoints for managing user profiles, including updati
 - **Update Password (user):** `POST https://prod-api-funimationnow.dadcdigital.com/api/source/user/credentials/YOURUSERID/`
   - Update the user password.
 
-- **Update Avatar (user):** `PUT https://prod-api-funimationnow.dadcdigital.com/api/user/avatar/`
+- **Update Avatar (user):** `POST https://prod-api-funimationnow.dadcdigital.com/api/avatar/`
   - Update the user avatar.
 
 ## Request Example for Update Username
