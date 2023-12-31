@@ -7,7 +7,7 @@ The user section provides endpoints for managing user profiles, including updati
 - **Get User Info (user):** `GET https://prod-api-funimationnow.dadcdigital.com/api/user/`
   - Retrieve user information.
 
-- **Update Username (user):** `PUT https://prod-api-funimationnow.dadcdigital.com/api/user/username/`
+- **Update Username (user):** `POST https://prod-api-funimationnow.dadcdigital.com/api/source/user/userid/`
   - Update the username.
 
 - **Update Email (user):** `PUT https://prod-api-funimationnow.dadcdigital.com/api/user/email/`
@@ -23,5 +23,6 @@ The user section provides endpoints for managing user profiles, including updati
 
 ```json
 {
-  "newUsername": "new_username"
+  "displayName": "username"
 }
+```
