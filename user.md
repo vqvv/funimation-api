@@ -13,7 +13,7 @@ The user section provides endpoints for managing user profiles, including updati
 - **Update Email (user):** `POST https://prod-api-funimationnow.dadcdigital.com/api/source/user/YOURUSERID/`
   - Update the email address.
 
-- **Update Password (user):** `PUT https://prod-api-funimationnow.dadcdigital.com/api/user/password/`
+- **Update Password (user):** `POST https://prod-api-funimationnow.dadcdigital.com/api/source/user/credentials/YOURUSERID/`
   - Update the user password.
 
 - **Update Avatar (user):** `PUT https://prod-api-funimationnow.dadcdigital.com/api/user/avatar/`
@@ -30,6 +30,15 @@ The user section provides endpoints for managing user profiles, including updati
 
 ```json
 {
+  "email": "email@mail.com"
+}
+```
+## Request Example for Update Password
+
+```json
+{
+  "old_password": "password",
+  "new_password": "Password",
   "email": "email@mail.com"
 }
 ```
